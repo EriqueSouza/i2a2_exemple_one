@@ -7,7 +7,7 @@ document.getElementById("resetForm").addEventListener("submit", function(event) 
     alert("Por favor, preencha o campo de e-mail.");
   } else {
     alert("O link para redefinição de senha foi enviado para o endereço informado.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   }
 });
 
